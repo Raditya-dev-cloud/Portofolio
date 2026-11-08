@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a1014" />
+    <meta name="description" content="Portofolio Raditya.Dev, calon web developer yang terus belajar dan berkembang." />
+    <title>Raditya.Dev | Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Raditya.Dev, kembali ke Home">Raditya<span>.Dev</span></a>
+        <button class="menu-toggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="main-nav">
+          <span></span><span></span>
+        </button>
+        <nav class="main-nav" id="main-nav" aria-label="Navigasi utama">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Halo, selamat datang</p>
+          <h1 id="hero-title">Saya Raditya.<br /><span>Calon Web Developer.</span></h1>
+          <p class="hero-description">Saya tertarik pada teknologi dan pengembangan website, serta terus membangun dasar yang kuat melalui HTML, CSS, JavaScript, dan Java.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Lihat Proyek <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="#contact">Hubungi Saya</a>
+          </div>
+        </div>
+
+        <div class="code-window" aria-label="Ilustrasi panel kode HTML">
+          <div class="window-bar">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span>portfolio.html</span>
+            <span class="window-code-icon">&lt;/&gt;</span>
+          </div>
+          <div class="code-body" aria-hidden="true">
+            <ol>
+              <li><code><span class="pink">&lt;main</span> <span class="yellow">class</span>=<span class="green">"portfolio"</span><span class="pink">&gt;</span></code></li>
+              <li><code>&nbsp;&nbsp;<span class="pink">&lt;section</span> <span class="yellow">class</span>=<span class="green">"hero"</span><span class="pink">&gt;</span></code></li>
+              <li><code>&nbsp;&nbsp;&nbsp;&nbsp;<span class="pink">&lt;h1&gt;</span>Halo, Saya Raditya<span class="pink">&lt;/h1&gt;</span></code></li>
+              <li><code>&nbsp;&nbsp;&nbsp;&nbsp;<span class="pink">&lt;p&gt;</span>Web Developer<span class="pink">&lt;/p&gt;</span></code></li>
+              <li><code>&nbsp;&nbsp;<span class="pink">&lt;/section&gt;</span></code></li>
+              <li><code><span class="pink">&lt;/main&gt;</span></code></li>
+            </ol>
+          </div>
+          <div class="code-footer"><span>Ln 4, Col 18</span><span>HTML</span></div>
+        </div>
+      </section>
+
+      <section class="section container" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">01 / Tentang Saya</p>
+          <h2 id="about-title">Tentang Raditya.Dev</h2>
+        </div>
+        <div class="about-grid">
+          <p class="about-lead">Website portofolio pribadi untuk mengenalkan siapa saya dan bagaimana perjalanan saya tumbuh di dunia teknologi.</p>
+          <div class="about-copy">
+            <p>Raditya.Dev berisi profil singkat, kemampuan yang sedang dipelajari, proyek yang pernah saya kerjakan, serta informasi untuk terhubung dengan saya. Tujuan utamanya sederhana: mencatat proses belajar sambil membangun karya yang berguna.</p>
+            <ul class="about-list">
+              <li><span>01</span> Profil & perjalanan</li>
+              <li><span>02</span> Keahlian & teknologi</li>
+              <li><span>03</span> Proyek & pengalaman</li>
+              <li><span>04</span> Informasi kontak</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">02 / Kemampuan</p>
+            <h2 id="skills-title">Skills</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <div class="skill-icon">&lt;/&gt;</div>
+              <span class="skill-number">01</span>
+              <h3>HTML</h3>
+              <p>Menyusun struktur halaman website secara semantik dan terorganisir.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">#</div>
+              <span class="skill-number">02</span>
+              <h3>CSS</h3>
+              <p>Mengatur tampilan, tata letak, warna, serta responsivitas halaman.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">JS</div>
+              <span class="skill-number">03</span>
+              <h3>JavaScript</h3>
+              <p>Membuat halaman lebih interaktif dan dinamis sesuai kebutuhan.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">J</div>
+              <span class="skill-number">04</span>
+              <h3>Java</h3>
+              <p>Mempelajari dasar pemrograman, logika, dan struktur data.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading projects-heading">
+          <div>
+            <p class="eyebrow">03 / Karya Pilihan</p>
+            <h2 id="projects-title">Projects</h2>
+          </div>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-top"><span class="project-index">01</span><span class="project-category">Concept App</span></div>
+            <div class="project-symbol lostfound" aria-hidden="true"><span>?</span></div>
+            <h3>LostFound Campus</h3>
+            <p>Konsep aplikasi untuk membantu civitas kampus melaporkan dan menemukan barang hilang.</p>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-index">02</span><span class="project-category">Programming</span></div>
+            <div class="project-symbol java" aria-hidden="true"><span>{ }</span></div>
+            <h3>Latihan Java</h3>
+            <p>Kumpulan latihan logika pemrograman, percabangan, perulangan, dan pengolahan data.</p>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-index">03</span><span class="project-category">Database Design</span></div>
+            <div class="project-symbol library" aria-hidden="true"><span>▦</span></div>
+            <h3>Sistem Perpustakaan</h3>
+            <p>Rancangan aturan bisnis dan basis data sederhana untuk pengelolaan perpustakaan.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">04 / Terhubung</p>
+            <h2 id="contact-title">Mari berbagi ide<br />dan terus belajar.</h2>
+          </div>
+          <address class="contact-links">
+            <a href="mailto:emailkamu@example.com"><span>Email</span><strong>emailkamu@example.com</strong><b>↗</b></a>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>github.com/username</strong><b>↗</b></a>
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"><span>Instagram</span><strong>instagram.com/username</strong><b>↗</b></a>
+            <p>Alamat di atas masih berupa contoh. Ganti dengan akun aktif pemilik sebelum dipublikasikan.</p>
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand" href="#home">Raditya<span>.Dev</span></a>
+        <p>© <span id="current-year"></span> Raditya.Dev</p>
+        <p>Dibuat untuk terus belajar dan berkembang.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
